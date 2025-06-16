@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!-- <script src="js/jquery.js"></script>
+<script src="js/owl.carousel.min.js"></script> -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- https://templatemo.com/live/templatemo_507_victory -->
+
+<body>
+
+<div class="container mt-5">
+        <div class="row">
+            <div class="col-12 text-center mt-5 mb-5">
+                <h5 class="h5 fw-bold">WEEKLY FEATURED FOOD</h5>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-4 col-sm-12">
+                <div class="featuredfoodbox p-4" style="background-color: #eaf0ff;">
+                    <h3 class="h3 text-black pb-2"
+                        style="font-family: 'Spectral', serif; border-bottom: 1px solid #d8deed;">Breakfast</h3>
+                    <div class="card mt-4" style="width: fit-content;">
+                        <img src="images/breakfast_item.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="h5" style="font-family: 'Spectral', serif;">Kale Chips Art Party</h5>
+                            <p class="card-text text-body-secondary fs-13">Dreamcatcher squid ennui cliche chicharros nes echo small batch jean shorts hexagon street art knausgaard wolf...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="featuredfoodbox p-4" style="background-color: #eaf0ff;">
+                    <h3 class="h3 text-black pb-2"
+                        style="font-family: 'Spectral', serif; border-bottom: 1px solid #d8deed;">Lunch</h3>
+                        <div class="card mt-4" style="width: 20rem;">
+                        <img src="images/lunch_item.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="h5" style="font-family: 'Spectral', serif;">Taiyaki Gastro Tousled</h5>
+                            <p class="card-text text-body-secondary fs-13">Dreamcatcher squid ennui cliche chicharros nes echo small batch jean shorts hexagon street art knausgaard wolf...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="featuredfoodbox p-4" style="background-color: #eaf0ff;">
+                    <h3 class="h3 text-black pb-2"
+                        style="font-family: 'Spectral', serif; border-bottom: 1px solid #d8deed;">Dinner</h3>
+                        <div class="card mt-4" style="width: 20rem;">
+                        <img src="images/dinner_item.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="h5" style="font-family: 'Spectral', serif;">Batch Squid Jean Shorts</h5>
+                            <p class="card-text text-body-secondary fs-13">Dreamcatcher squid ennui cliche chicharros nes echo small batch jean shorts hexagon street art knausgaard wolf...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row mx-auto">
+            <div class="col-5">
+                <img src="images/ourmenus_breakfast.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-7">
+                <div class="breakfastbox">
+                    <h3 class="h3 text-black pb-2"
+                        style="font-family: 'Spectral', serif; border-bottom: 1px solid #d8deed;">Breakfast Menu</h3>
+                    <div class="owl-carousel owl-theme fooditemslider">
+                        <div class="breakfastfooditem">
+                            <img src="images/breakfast_item.jpg" alt="" class="img-fluid">
+                            <h5 class="h5" style="font-family: 'Spectral', serif;">Kale Chips Art Party</h5>
+                            <p class="text-body-secondary fs-13">Dreamcatcher squid ennui cliche chicharros nes echo
+                                small batch jean ditcher meal...</p>
+                        </div>
+                        <div class="breakfastfooditem">
+                            <img src="images/breakfast_item.jpg" alt="" class="img-fluid">
+                            <h5 class="h5" style="font-family: 'Spectral', serif;">Kale Chips Art Party</h5>
+                            <p class="text-body-secondary fs-13">Dreamcatcher squid ennui cliche chicharros nes echo
+                                small batch jean ditcher meal...</p>
+                        </div>
+                        <div class="breakfastfooditem">
+                            <img src="images/breakfast_item.jpg" alt="" class="img-fluid">
+                            <h5 class="h5" style="font-family: 'Spectral', serif;">Kale Chips Art Party</h5>
+                            <p class="text-body-secondary fs-13">Dreamcatcher squid ennui cliche chicharros nes echo
+                                small batch jean ditcher meal...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+<script src="js/jquery.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script>
+    $('.fooditemslider').owlCarousel({
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: true
+            },
+            600: {
+                items: 3,
+                nav: false
+            },
+            1000: {
+                items: 4,
+                nav: true,
+                loop: false
+            }
+        }
+    })
+</script>
+</html>
